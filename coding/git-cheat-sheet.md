@@ -29,7 +29,7 @@ Github: @mafortin
 | `git merge <branch>` | Merge into current branch |
 | `git branch -d <name>` | Delete a branch |
 
-## Pushing & ⬇️ Pulling
+## Pushing & Pulling
 
 | Command | Description |
 |--------|-------------|
