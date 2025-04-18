@@ -12,5 +12,5 @@
 - How DeepSeek beat OpenAI: https://epoch.ai/gradient-updates/how-has-deepseek-improved-the-transformer-architecture
 - Compression Algorithms (https://cefboud.com/posts/compression/)
 - understanding Gaussian (https://gestalt.ink/gaussians)
-- P vs NP (https://vasekrozhon.wordpress.com/2024/08/18/what-p-vs-np-is-actually-about/)
-- Youtube channel for discussing papers: https://www.youtube.com/@YannicKilcher
+- P vs NP problems:(https://vasekrozhon.wordpress.com/2024/08/18/what-p-vs-np-is-actually-about/)
+- Youtube channel for discussing AI papers: https://www.youtube.com/@YannicKilcher
