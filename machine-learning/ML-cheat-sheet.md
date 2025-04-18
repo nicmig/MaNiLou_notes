@@ -1,5 +1,5 @@
 ---
-ate: April 2025
+date: April 2025
 author: Marc-Antoine Fortin
 email: marc.a.fortin@ntnu.no
 github: mafortin
