@@ -1,11 +1,11 @@
+---
+date: March 2025
+author: Marc-Antoine Fortin
+email: marc.a.fortin@ntnu.no
+github: mafortin
+---
+
 # nnUNet (not a new UNet)
-
----
-Author: Marc-Antoine Fortin, Mars 2025.
-Email: marc.a.fortin@ntnu.no
-Github: @mafortin
-
----
 
 ## Preface:
 

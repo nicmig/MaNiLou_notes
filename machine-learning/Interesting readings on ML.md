@@ -1,12 +1,12 @@
 ---
-Author: Niclas Flehmig, April 2025.
-Email: niclas.flehmig@ntnu.no
-Github: @nicmig
+date: April 2025
+author: Niclas Flehmig
+email: niclas.flehmig@ntnu.no
+github: nicmig
 ---
-
+# Interesting readings on ML
 
 - be careful with cosine similarity: https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity
-- how to use the Zettelkasten method: https://zettelkasten.de/introduction/
 - Transformers for forecasting: https://huggingface.co/blog/autoformer
 - Up-sampling with Transposed Convolution: https://naokishibuya.medium.com/up-sampling-with-transposed-convolution-9ae4f2df52d0
 - Blog about different AI topics: https://lilianweng.github.io/
@@ -17,7 +17,3 @@ Github: @nicmig
 - introduction to State-Space-Models: https://huggingface.co/blog/lbourdois/get-on-the-ssm-train
 - Language Modeling is Compression: https://openreview.net/forum?id=jznbgiynus
 - How DeepSeek beat OpenAI: https://epoch.ai/gradient-updates/how-has-deepseek-improved-the-transformer-architecture
-- Compression Algorithms (https://cefboud.com/posts/compression/)
-- understanding Gaussian (https://gestalt.ink/gaussians)
-- P vs NP problems:(https://vasekrozhon.wordpress.com/2024/08/18/what-p-vs-np-is-actually-about/)
-- Youtube channel for discussing AI papers: https://www.youtube.com/@YannicKilcher

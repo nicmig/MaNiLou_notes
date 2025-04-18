@@ -1,9 +1,10 @@
 ---
-Author: Niclas Flehmig, April 2025.
-Email: niclas.flehmig@ntnu.no
-Github: @nicmig
+date: April 2025
+author: Niclas Flehmig
+email: niclas.flehmig@ntnu.no
+github: nicmig
 ---
-
+# Interesting Youtube channels
 
 - Andrej Karpathy (former AI engineer Tesla, early OpenAI, does amazing videos on LLM and general neural networks): https://www.youtube.com/@AndrejKarpathy
 - Yannic Kilcher (research from Switzerland, discusses AI papers and different stuff related to AI): https://www.youtube.com/@YannicKilcher
