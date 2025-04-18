@@ -1,2 +1,2 @@
-# MaNi_notes
-notes from Marc and me about interesting stuff and machine learning.
+# MaNiLou_notes
+notes, links and blogs from Marc, Niclas and Louis about interesting stuff, e.g. machine learning, medical imaging, embedded software, maths or whatever.
