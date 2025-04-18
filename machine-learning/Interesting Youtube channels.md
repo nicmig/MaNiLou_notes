@@ -1,3 +1,10 @@
+---
+Author: Niclas Flehmig, April 2025.
+Email: niclas.flehmig@ntnu.no
+Github: @nicmig
+---
+
+
 - Andrej Karpathy (former AI engineer Tesla, early OpenAI, does amazing videos on LLM and general neural networks): https://www.youtube.com/@AndrejKarpathy
 - Yannic Kilcher (research from Switzerland, discusses AI papers and different stuff related to AI): https://www.youtube.com/@YannicKilcher
 - DeepFindr (german researcher, explains different AI and XAI stuff in a really simple and nice way): https://www.youtube.com/@DeepFindr/videos
