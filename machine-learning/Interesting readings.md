@@ -1,9 +1,8 @@
 ---
-Author: Niclas Flehmig, April 2025.
-Email: niclas.flehmig@ntnu.no
-Github: @nicmig
+date: 18.04.2025
+author: Niclas Flehmig
+email: niclas.flehmig@ntnu.no
 ---
-
 
 - be careful with cosine similarity: https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity
 - how to use the Zettelkasten method: https://zettelkasten.de/introduction/

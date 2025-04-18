@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "niclas/Interesting readings.md",
+                "file": "machine-learning/Interesting readings.md",
                 "mode": "source",
                 "source": false
               },
@@ -176,10 +176,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05885c6183b232ef",
+  "active": "ed18736eca1ced3c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "machine-learning/ML-cheat-sheet.md",
+    "machine-learning/Interesting Youtube channels.md",
+    "machine-learning/Interesting readings.md",
     "niclas/Interesting readings.md",
+    "machine-learning/nnUNet.md",
+    "machine-learning",
+    "coding/git-cheat-sheet.md",
+    "coding",
+    "conflict-files-obsidian-git.md",
     "Untitled.md",
     "Untitled",
     "niclas/Interesting Youtube channels.md",
