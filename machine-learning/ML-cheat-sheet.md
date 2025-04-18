@@ -7,7 +7,7 @@ Github: @mafortin
 
 ---
 
-![ML diagram](../images/Pasted image 20250417190208.png)
+![ML diagram](../images/Pasted-image-20250417190208.png)
 
 - ML algorithms: training algorithms that rely on statistical concepts to solve rather simple tasks  
 	- E.g., Linear/Logistic Regression, Decision Trees, Random Forests, k-Nearest Neighbors, etc.  
