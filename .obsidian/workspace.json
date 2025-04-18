@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "Interesting readings"
             }
-          },
-          {
-            "id": "3fbc3e399a76aa38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,10 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fbc3e399a76aa38",
+  "active": "07d05ceda9add137",
   "lastOpenFiles": [
-    "niclas/Interesting readings.md",
     "conflict-files-obsidian-git.md",
+    "niclas/Interesting readings.md",
     "niclas/Interesting Youtube channels.md",
     "Untitled.md",
     "niclas"
