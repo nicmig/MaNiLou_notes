@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interesting Youtube channels.md",
+                "file": "Interesting readings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interesting Youtube channels"
+              "title": "Interesting readings"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interesting Youtube channels.md",
+                "file": "Interesting readings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Interesting Youtube channels"
+              "title": "Backlinks for Interesting readings"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interesting Youtube channels.md",
+                "file": "Interesting readings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Interesting Youtube channels"
+              "title": "Outgoing links from Interesting readings"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interesting Youtube channels.md",
+                "file": "Interesting readings.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Interesting Youtube channels"
+              "title": "Outline of Interesting readings"
             }
           },
           {
@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +197,8 @@
   },
   "active": "e9ccfdec1a330964",
   "lastOpenFiles": [
-    "Interesting readings.md",
     "Interesting Youtube channels.md",
+    "Interesting readings.md",
     "Untitled",
     "Welcome.md"
   ]
