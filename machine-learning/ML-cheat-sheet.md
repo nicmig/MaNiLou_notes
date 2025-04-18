@@ -336,6 +336,7 @@ Github: @mafortin
 - Here is a comparison of the three algorithms and the resulting loss function in its hypothetical error plane:
     - Black --> Batch;
     - Green --> Stochastic;
-    - Blue --> mini-batch. ![Gradient Descent Comparison](../images/Pasted%20image%2020250417203259.png)
+    - Blue --> mini-batch. 
+    - ![Gradient Descent Comparison](../images/Pasted%20image%2020250417203259.png)
 
 ---
