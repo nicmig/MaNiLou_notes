@@ -4,5 +4,6 @@ author: Niclas Flehmig
 email: niclas.flehmig@ntnu.no
 github: nicmig
 ---
-# Interesting readings
+# Interesting readings on organizing your work
+
 -  how to use the Zettelkasten method: https://zettelkasten.de/introduction/

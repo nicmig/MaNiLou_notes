@@ -4,7 +4,7 @@ author: Niclas Flehmig
 email: niclas.flehmig@ntnu.no
 github: nicmig
 ---
-# Interesting readings
+# Interesting readings on ML
 
 - be careful with cosine similarity: https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity
 - Transformers for forecasting: https://huggingface.co/blog/autoformer
