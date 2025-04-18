@@ -3,6 +3,7 @@ date: 18.04.2025
 author: Niclas Flehmig
 email: niclas.flehmig@ntnu.no
 ---
+# Interesting readings
 
 - be careful with cosine similarity: https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity
 - how to use the Zettelkasten method: https://zettelkasten.de/introduction/
