@@ -8,7 +8,7 @@ Github: @mafortin
 ---
 
 
-![[Pasted image 20250417190208.png]]
+![[images/Pasted image 20250417190208.png]]
 
 - ML algorithms: training algorithms that rely on statistical concepts to solve rather simple tasks
 	- E.g., Linear/Logistic Regression, Decision Trees, Random Forests, k-Nearest Neighbors, etc.
@@ -21,7 +21,7 @@ Github: @mafortin
 - Deep Learning (DL):
 	- Subset of ML focusing **only on Neural Networks**.
 
-![[Pasted image 20250417190741.png]]
+![[images/Pasted image 20250417190741.png]]
 - In recent years, it has become **THE** dominating tool for handling complex data.
 
 ---
@@ -36,11 +36,11 @@ Github: @mafortin
 
 - Simplest ML model;
 
-![[Pasted image 20250417152523.png]]
+![[images/Pasted image 20250417152523.png]]
 - Can use x^n with n>1, becoming polynomial regression that can capture non linear behaviors;   
 - Ridge, Lasso and Elastic Net are regularization techniques to combat overfitting.
 
-![[Pasted image 20250417152811.png]]
+![[images/Pasted image 20250417152811.png]]
 
 
 ---
@@ -50,37 +50,37 @@ Github: @mafortin
 1) **Logistic Regression**
  - Despite its name, it's a classification model used for binary classification (e.g., cat or dog). 
 
-![[Pasted image 20250417153050.png]]
+![[images/Pasted image 20250417153050.png]]
 - Based on a predetermined threshold, the model classifies whether it is a "positive" or "negative" classification.
 
 
-![[Pasted image 20250417153311.png]]
+![[images/Pasted image 20250417153311.png]]
 - Error/loss function is Cross-Entropy since the labels are categorical and not continuous.
 - Can handle multi-class classification by changing the sigmoid into a softmax function.
 	--> Multinomial Logistic Regression.
 	- N_{k} > 1
 
 
-![[Pasted image 20250417154844.png]]
+![[images/Pasted image 20250417154844.png]]
 
-![[Pasted image 20250417154904.png]]
+![[images/Pasted image 20250417154904.png]]
 
 
 2) **Naive Bayes** 
 
-![[Pasted image 20250417155333.png]]
+![[images/Pasted image 20250417155333.png]]
 
 - "Naive":
 
-![[Pasted image 20250417155354.png]]
+![[images/Pasted image 20250417155354.png]]
 - E.g., Does the sentence "This place feels disappointing" have a negative or positive meaning?
 	- It assumes all words are independent from each other.
 
-![[Pasted image 20250417155521.png]]
-- Simplifcation that allows for computing this equation (otherwise extremely more computationally expensive): ![[Pasted image 20250417155719.png]]![[Pasted image 20250417155705.png]]
+![[images/Pasted image 20250417155521.png]]
+- Simplifcation that allows for computing this equation (otherwise extremely more computationally expensive): ![[images/Pasted image 20250417155719.png]]![[images/Pasted image 20250417155705.png]]
 
 
-	- Three types of Naive Bayes:![[Pasted image 20250417155816.png]]
+	- Three types of Naive Bayes:![[images/Pasted image 20250417155816.png]]
 
 
 ---
@@ -90,7 +90,7 @@ Github: @mafortin
 
 1) **Decision Tree**:
 
-![[Pasted image 20250417160103.png]]
+![[images/Pasted image 20250417160103.png]]
 - The tree uses one feature to split the data as much/evenly as possible. 
 	- The quality of each split is evaluated by "impurity" measures.
 		- E.g., Gini impurity, Entropy, etc.
@@ -106,13 +106,13 @@ Github: @mafortin
 
 
 2) **Random Forests**:
-![[Pasted image 20250417161038.png]]
+![[images/Pasted image 20250417161038.png]]
 - Combines several Decision trees together;
 - Each decision Tree is trained with a subset of the full training dataset called 'bootstrap samples' which are random samples of the training dataset of the same size but with replacements.
 
-- For classification: ![[Pasted image 20250417162948.png]]
+- For classification: ![[images/Pasted image 20250417162948.png]]
 
-- For regression: ![[Pasted image 20250417163018.png]]
+- For regression: ![[images/Pasted image 20250417163018.png]]
 
 - Advantages:
 	- Less prone to overfitting than decision trees;
@@ -123,7 +123,7 @@ Github: @mafortin
 	- More Hyper-Parameters (HP) than previous models.
 
 3) **Support Vector Machines (SVM)**
-![[Pasted image 20250417163404.png]]
+![[images/Pasted image 20250417163404.png]]
 - Advantage: Very powerful
 - Disadvantages:
 	- Requires careful HP tuning;
@@ -131,13 +131,13 @@ Github: @mafortin
 			- Increasing C and Gamma --> more overfitting
 
 - For regression: 
-	- Support Vector Regressor: ![[Pasted image 20250417163743.png]]
+	- Support Vector Regressor: ![[images/Pasted image 20250417163743.png]]
 	- K-Nearest Neighbors:
 		- Belongs to the "lazy learning algorithms" class
 			- I.e., you don't train a kNN model, you just use the data directly.
 			- **Major** disadvantage: Prediction is slow, especially for large data since you have to 'calculate' the answer for every single prediction.
 		- Smaller K --> higher chance of overfitting 
-		- Larger K --> higher chance of underfitting ![[Pasted image 20250417163951.png]]
+		- Larger K --> higher chance of underfitting ![[images/Pasted image 20250417163951.png]]
 
 	- Can be used for both regression and classification depending on how you process/compute the k nearest neighbours.
 
@@ -150,13 +150,13 @@ Github: @mafortin
 	- Boosting:
 		- Combining several 'weak' models without randomization.
 		- Higher accuracy models are given a larger weight for predictions:
-		- ![[Pasted image 20250417164923.png]]
+		- ![[images/Pasted image 20250417164923.png]]
 	- Voting
 		- Combining different types of models together through 'hard' or 'soft' voting.
 			- 'Hard' voting --> Majority class voting between models
 			- 'Soft' voting --> Class probably summation of all models + highest total class probablity = winning class.
 	- Stacking --> basically what the nnUNet is doing with the 5-fold cross-validation
-		- ![[Pasted image 20250417165338.png]]
+		- ![[images/Pasted image 20250417165338.png]]
 			- E.g., here we can use 5 different models with the same training data for the base models OR we can use 5 different fold of data for the same 5 base models (e.g., the nnUNet).
 		- Disadvantages:
 			- Slow;
@@ -164,43 +164,43 @@ Github: @mafortin
 
 
 3) **Neural Networks**:
-	- Can be seen as a (highly) more complicated version of logistic regression: ![[Pasted image 20250417170053.png]]
+	- Can be seen as a (highly) more complicated version of logistic regression: ![[images/Pasted image 20250417170053.png]]
 		- If you remove the sigmoid function, it is simply a **linear regression**.
 	
-	- What makes NN different from logistic regression is their **hidden layers**: ![[Pasted image 20250417170407.png]]
+	- What makes NN different from logistic regression is their **hidden layers**: ![[images/Pasted image 20250417170407.png]]
 		- This is a Fully Connected Neural Networks.
 		- Each weight (w) is a parameter of your model/function.
 
 - Without **activation function**, each layer would jsut perform a linear transformation.
 
-	- F.eks. node z_1 from above would be this: ![[Pasted image 20250417173407.png]]
-	- Which would then give something like this: ![[Pasted image 20250417173449.png]]
+	- F.eks. node z_1 from above would be this: ![[images/Pasted image 20250417173407.png]]
+	- Which would then give something like this: ![[images/Pasted image 20250417173449.png]]
 		- Which would limit considerably its ability to solve complex real world problems.
-		- Hence, adding an activation function to introduce non-linearity (e.g., ReLU): ![[Pasted image 20250417173558.png]]
-	- NN learns through a process called  **backpropagation** where the model adjusts its weights and biases by minimizing a loss function. ![[Pasted image 20250417173844.png]]
+		- Hence, adding an activation function to introduce non-linearity (e.g., ReLU): ![[images/Pasted image 20250417173558.png]]
+	- NN learns through a process called  **backpropagation** where the model adjusts its weights and biases by minimizing a loss function. ![[images/Pasted image 20250417173844.png]]
 
 - Advantages:
-	- **EXTREMELY** powerful and versatile: ![[Pasted image 20250417174150.png]]
+	- **EXTREMELY** powerful and versatile: ![[images/Pasted image 20250417174150.png]]
 	- Very scalable (i.e., easy to increase the number of layers and parameters)
 - Disadvantages:
 	- Prone to overfitting if the model is too complex (e.g., too many hidden layers)
 	- HP fine-tuning can be computationally and/or time expensive
-	- Grid search vs randomized search:![[Pasted image 20250417184123.png]]
+	- Grid search vs randomized search:![[images/Pasted image 20250417184123.png]]
 
 
 ---
 
 ### Unsupervised models:
 
-- For all previous methods/models, we had an **Input** --> **Target** combination like this: ![[Pasted image 20250417175956.png]]
-- But for unsupervised learning, we do not define a target: ![[Pasted image 20250417175936.png]]
+- For all previous methods/models, we had an **Input** --> **Target** combination like this: ![[images/Pasted image 20250417175956.png]]
+- But for unsupervised learning, we do not define a target: ![[images/Pasted image 20250417175936.png]]
 
 
 1) **Clustering**:
-	- Most popular techniques: **K-Means** ![[Pasted image 20250417180210.png]]
+	- Most popular techniques: **K-Means** ![[images/Pasted image 20250417180210.png]]
 	- You need to manually define k. Then, randomly choose the k cluster centers. Finally, calculate the distance for each point to each cluster center (or centroid). Assign the point to the closest cluster center. Repeat iteratively until the cluster centers do not significantly move.
 	- Disadvantages:
-		- Defining a bad k value: ![[Pasted image 20250417183736.png]]
+		- Defining a bad k value: ![[images/Pasted image 20250417183736.png]]
 		- slow on large datasets
 	- **Fundamental clustering algorithm**
 		- Many variations exist to address some of the drawbacks.
@@ -211,9 +211,9 @@ Github: @mafortin
 	- That means, it tries to reduce the number of features while perserving as much information as possible  about the data.
 	- PCA transforms the data into a new set of variables called Principal Components which are uncorrelated/independent from each other.
 		- That means there is no overlap in information between each other PC.
-	- ![[Pasted image 20250417180839.png]]
+	- ![[images/Pasted image 20250417180839.png]]
 	- PC1 always captures the most information. PC2 being the second, PC3 the third, etc.
-	- PCs linearly combine the original features together: ![[Pasted image 20250417181006.png]]
+	- PCs linearly combine the original features together: ![[images/Pasted image 20250417181006.png]]
 		- The math behind is based on Eigenvalues and eigenvectors and can be quite intensive.
 
 
@@ -233,29 +233,29 @@ Github: @mafortin
 	2) For Classification:
 		- Here, we need to compare "classes" instead of numbers.
 		- Common loss function: **Cross-Entropy** 
-		- Here is an example for binary CE: ![[Pasted image 20250417193945.png]]
-		- Here for multi-class (N_classes > 2  ) CE: ![[Pasted image 20250417193644.png]]
+		- Here is an example for binary CE: ![[images/Pasted image 20250417193945.png]]
+		- Here for multi-class (N_classes > 2  ) CE: ![[images/Pasted image 20250417193644.png]]
 	- Many other losses exist, here is just few examples of the most common ones.
 
 ---
 
 #### How to evaluate a ML model?
 
-- Common tool for classification task: **Confusion Matrix** ![[Pasted image 20250417194448.png]]
+- Common tool for classification task: **Confusion Matrix** ![[images/Pasted image 20250417194448.png]]
 
-- What is Accuracy? ![[Pasted image 20250417194540.png]]
-- Mathematically: ![[Pasted image 20250417194641.png]]
+- What is Accuracy? ![[images/Pasted image 20250417194540.png]]
+- Mathematically: ![[images/Pasted image 20250417194641.png]]
 
 
 - But **Accuracy** isn't everything...
 	- Let's say hypothetically, you create a model that predicts whether someone has the flu or not. There are 100 000 people in total and only 100 people with the flu. Now, assume you did a poor job, and your model assigns 0 person with the flu.
-		- You will get this confusion matrix: ![[Pasted image 20250417203839.png]]
+		- You will get this confusion matrix: ![[images/Pasted image 20250417203839.png]]
 			- This results in an accuracy of 99.9%, which is great in theory.
 			- **HOWEVER**, we missed 100% of the actual sick people (true positives), so our model is completely useless in practice!
 			- So, in practice, you'd be better to have a model that would assign someone as 'sick' when they are not (False Positive) than 'healthy' when actually sick (False Negative).
 				- This is where **Recall** and **Precision** come in!
 
-![[Pasted image 20250417204158.png]]
+![[images/Pasted image 20250417204158.png]]
 - The difference between between both is in the denominators.
 
 - **Recall**: High Recall --> Minimizes False Negatives
@@ -297,12 +297,12 @@ Github: @mafortin
 				- So, it tells you (1) to how far and (2) where (direction) to go if you want to improve your model.
 				- When the rate gets lower, it means that you are getting closer to the minimum for your loss function.
 	5) Update all weights individually such that the loss function is reduced.
-		- Like this: ![[Pasted image 20250417200907.png]]
+		- Like this: ![[images/Pasted image 20250417200907.png]]
 			- where w was the previous weight, alpha, the learning rate which is multiplied by the gradient of the loss function in respect to the weight w.
 				- This step is done for every single weight.
 			- **Note**: The speed/step size at which the weights will be updated is directy related to the **learning rate** (LR) as shown above.
 	6) Repeat iteratively until you reach the most optimal solution (when you have minimized the loss function, i.e., found its **global minima**).
-		- F.eks., here for an hypothetical loss/error function where we only have one variable (X), you can easily identify the global from the local minima: ![[Pasted image 20250417201605.png]]
+		- F.eks., here for an hypothetical loss/error function where we only have one variable (X), you can easily identify the global from the local minima: ![[images/Pasted image 20250417201605.png]]
 			- However, in practice, our loss/error function includes hundreds or thousands (if not millions!!) of variables, making it **extremely** hard (or even impossible in practice) to find **THE** global minima.
 				- Hence, we hope/settle to find one of the best local minima in the extremely (I feel like I can't repeat that enough) complex loss/error function.
 				- If you have 1000 variables/parameters, that means you have 1000 dimensions to your loss/error function.
@@ -337,4 +337,4 @@ Github: @mafortin
 - Here is a comparison of the three algorithms and the resulting loss function in its hypothetical error plane:
 	- Black --> Batch;
 	- Green --> Stochastic;
-	- Blue --> mini-batch. ![[Pasted image 20250417203259.png]]
+	- Blue --> mini-batch. ![[images/Pasted image 20250417203259.png]]
