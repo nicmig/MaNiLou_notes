@@ -1,11 +1,10 @@
+---
+date: April 2025
+author: Marc-Antoine Fortin
+email: marc.a.fortin@ntnu.no
+github: mafortin
+---
 # What is ML?
-
----
-Author: Marc-Antoine Fortin, April 2025.
-Email: marc.a.fortin@ntnu.no
-Github: @mafortin
-
----
 
 
 ![[Pasted image 20250417190208.png]]

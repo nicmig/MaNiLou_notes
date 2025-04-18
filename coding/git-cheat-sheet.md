@@ -1,10 +1,10 @@
+---
+date: April 2025
+author: Marc-Antoine Fortin & ChatGPT
+email: marc.a.fortin@ntnu.no
+github: mafortin
+---
 # Git Cheat Sheet
----
-Author: Marc-Antoine Fortin & ChatGPT, April 2025.
-Email: marc.a.fortin@ntnu.no
-Github: @mafortin
-
----
 
 ## Basic Commands
 
