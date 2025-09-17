@@ -17,3 +17,6 @@ github: nicmig
 - introduction to State-Space-Models: https://huggingface.co/blog/lbourdois/get-on-the-ssm-train
 - Language Modeling is Compression: https://openreview.net/forum?id=jznbgiynus
 - How DeepSeek beat OpenAI: https://epoch.ai/gradient-updates/how-has-deepseek-improved-the-transformer-architecture
+- generative AI pilots just BS?: https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
+- why we need updates for AI and not even superintelligences can do it without: https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/g8HHKaWENEbqh2mgK
+- Vibe coding is BS: https://geohot.github.io//blog/jekyll/update/2025/09/12/ai-coding.html
