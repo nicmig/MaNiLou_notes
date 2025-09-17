@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/Interesting readings on maths.md",
+                "file": "machine-learning/ML-cheat-sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interesting readings on maths"
+              "title": "ML-cheat-sheet"
             }
           },
           {
@@ -205,8 +205,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07d05ceda9add137",
+  "active": "284a5342947987b8",
   "lastOpenFiles": [
+    "maths/Interesting readings on maths.md",
     "images/Pasted image 20250417204158.png",
     "images/Pasted image 20250417203839.png",
     "images/Pasted image 20250417203259.png",
@@ -217,13 +218,11 @@
     "images/Pasted image 20250417194448.png",
     "images/Pasted image 20250417193945.png",
     "images/Pasted image 20250417193644.png",
-    "images/Pasted image 20250417190741.png",
     "images",
     "coding/git-cheat-sheet.md",
     "organizing-your-stuff/Interesting readings on organizing your work.md",
     "machine-learning/Interesting readings on ML.md",
     "coding/Coding cheat book for your next interview.md",
-    "maths/Interesting readings on maths.md",
     "machine-learning/nnUNet.md",
     "machine-learning/Interesting Youtube channels.md",
     "machine-learning/ML-cheat-sheet.md",
