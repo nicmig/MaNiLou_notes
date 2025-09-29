@@ -20,3 +20,4 @@ github: nicmig
 - generative AI pilots just BS?: https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
 - why we need updates for AI and not even superintelligences can do it without: https://www.lesswrong.com/s/Z6vSYoeNBXbDxhARn/p/g8HHKaWENEbqh2mgK
 - Vibe coding is BS: https://geohot.github.io//blog/jekyll/update/2025/09/12/ai-coding.html
+- Linear Representation Hypothesis: https://www.lesswrong.com/posts/JK9nxcBhQfzEgjjqe/deep-learning-models-might-be-secretly-almost-linear
