@@ -49,8 +49,7 @@
               "title": "Interesting readings on ML"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,13 +205,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7d9ade074b9b1b5",
+  "active": "284a5342947987b8",
   "lastOpenFiles": [
-    "machine-learning/nnUNet.md",
+    "coding/git-cheat-sheet.md",
     "machine-learning/Interesting readings on ML.md",
+    "machine-learning/Interesting Youtube channels.md",
+    "machine-learning/nnUNet.md",
     "organizing-your-stuff/Interesting readings on organizing your work.md",
     "coding/Coding cheat book for your next interview.md",
-    "machine-learning/Interesting Youtube channels.md",
     "machine-learning/ML-cheat-sheet.md",
     "maths/Interesting readings on maths.md",
     "images/Pasted image 20250417204158.png",
@@ -226,7 +226,6 @@
     "images/Pasted image 20250417193945.png",
     "images/Pasted image 20250417193644.png",
     "images",
-    "coding/git-cheat-sheet.md",
     "maths",
     "organizing-your-stuff",
     "niclas/Interesting readings.md",
