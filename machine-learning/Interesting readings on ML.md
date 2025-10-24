@@ -8,6 +8,7 @@ github: nicmig
 ## Blogs
 - Blog about different AI topics: https://lilianweng.github.io/
 - Another blog from an OpenAI employee: https://colah.github.io/
+- blog from AI researchers with peer-reviewed posts: https://distill.pub
 ## Posts
 - be careful with cosine similarity: https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity
 - Transformers for forecasting: https://huggingface.co/blog/autoformer

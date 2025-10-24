@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "machine-learning/On Backpropagation.md",
+                "file": "machine-learning/Interesting readings on ML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "On Backpropagation"
+              "title": "Interesting readings on ML"
             }
           },
           {
@@ -222,8 +222,8 @@
   },
   "active": "bb166b38543b3d49",
   "lastOpenFiles": [
-    "machine-learning/Interesting readings on ML.md",
     "machine-learning/On Backpropagation.md",
+    "machine-learning/Interesting readings on ML.md",
     "coding/Coding cheat book for your next interview.md",
     "coding/git-cheat-sheet.md",
     "machine-learning/Interesting Youtube channels.md",
